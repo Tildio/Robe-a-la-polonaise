@@ -1,9 +1,31 @@
-img{
-    width: 200px;
+body{
+    background-color: rgb(12, 9, 20);
+}
+.texto{
+   color: whitesmoke;
 }
 .texto1{
-    color: blueviolet;
+    color: rgb(73, 28, 116);
 }
 #button{
     color: crimson;
+}
+#i1{
+    width: 500px;
+}
+.i2{
+    width: 200px;
+}
+.texto2{
+    color: blueviolet;
+}
+#logo{
+    width: 50px;
+}
+.s1{
+    background: url(../img/Tildío\ 1-01.jpg);
+    height: 50px;
+}
+.s2{
+    background: url(../img/flores\ fondo\ guiones.png);
 }
