@@ -22,10 +22,18 @@ body{
 #logo{
     width: 50px;
 }
-.s1{
-    background: url(../img/Tildío\ 1-01.jpg);
-    height: 50px;
-}
 .s2{
     background: url(../img/flores\ fondo\ guiones.png);
+}
+.s2{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.s1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.s3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.s1{
+    text-align: center;
 }
