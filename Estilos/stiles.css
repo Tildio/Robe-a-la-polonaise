@@ -1,8 +1,11 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 body{
-    background-color: rgb(12, 9, 20);
+    background-color: rgb(240, 240, 240);
 }
 .texto{
-   color: whitesmoke;
+   color: rgb(17, 17, 17);
 }
 .texto1{
     color: rgb(73, 28, 116);
@@ -22,18 +25,33 @@ body{
 #logo{
     width: 50px;
 }
-.s2{
-    background: url(../img/flores\ fondo\ guiones.png);
-}
-.s2{
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
 .s1{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-.s3{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: url(../img/flores\ fondo\ guiones.png);
 }
 .s1{
     text-align: center;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+h4{
+    margin: 20px;
+}
+#logo{
+    margin: 20px;
+}
+#i1{
+    display: flex;
+    }
+
+.s5{
+    height: 500px;
+    display: block;
+    color: blueviolet;
+}
+.cuadrado{
+    height: 50px;
+    width: 50px;
+    color: crimson;
 }
