@@ -24,6 +24,7 @@ body{
 }
 #logo{
     width: 50px;
+    margin: 20px;
 }
 .s1{
     background: url(../img/flores\ fondo\ guiones.png);
@@ -36,9 +37,6 @@ body{
     margin: 0;
 }
 h4{
-    margin: 20px;
-}
-#logo{
     margin: 20px;
 }
 #i1{
@@ -54,4 +52,49 @@ h4{
     height: 50px;
     width: 50px;
     color: crimson;
+}
+.menu{
+    display: flex;
+    background-color: darkcyan;
+    justify-content: space-around;
+}
+.contenedor-menu{
+    display: flex;
+    justify-content: flex-end;
+    width: 80%;
+    margin-left: 10px;
+}
+.contenedor-item{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-left: 20px;
+}
+.contenedor-item a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    
+}
+.contenedosr-logo{
+    width: 20%;
+}
+
+/*Galeria de accesorios*/
+
+.galeria{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.gal1{
+    display: flex;
+}
+.gal1 img{
+    width: 150px;
+    margin: 10px;
+    border-radius: 10px;
+    transition: 200ms;
+}
+.gal1 img:hover{
+    transform:scale(1.15);
 }
